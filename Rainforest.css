@@ -605,15 +605,15 @@ padding: 20px;
    display: block;
    margin: auto;
    padding-top: 80px;
-	  color: #005292;
--webkit-text-stroke: 0.1px #E4D800;
+color: #005292;
+-webkit-text-stroke: 0.4px #E4D800;
 font-style: 'LithosPro-Black';
 text-shadow: 0px 2.85039px 2.85039px rgba(0, 0, 0, 0.25);
 font-weight: bolder;
-font-size: 25px;
+font-size: 35px;
 font-weight: 700;
-line-height: 25px;
-text-align: center;
+line-height: 40px;
+
 	   }
   .intrologo{
     width: 60vw;
