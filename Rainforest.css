@@ -1,0 +1,1115 @@
+
+    
+    @font-face {
+        font-family: 'LithosPro-Bold';
+        src: url("Rainforestfont/LithosPro-Bold.otf");
+        font-weight: bold;}
+
+    @font-face {
+        font-family: 'LithosPro-Black';
+        src: url("Rainforestfont/LithosPro-Black.otf");
+        font-weight: bolder;}
+
+    @font-face {
+        font-family: 'LithosPro-ExtraLight';
+        src: url("Rainforestfont/LithosPro-ExtraLight.otf");
+        font-weight: lighter;}
+    @font-face {
+            font-family:    'LithosPro-Light';
+            src: url("Rainforestfont/LithosPro-Light.otf");
+            font-weight: light;}
+        @font-face {
+            font-family: 'LithosPro-Regular';
+           src: url("Rainforestfont/LithosPro-Regular.otf");
+           font-weight: normal;
+        }
+    
+ body{ font-family:'LithosPro-Regular';}
+.topnav {
+    background-color:#72AA5E;
+    width: 100%;
+    height: 55px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 9999;
+    text-align: center;
+}
+
+.topimg{width: 80px;
+height:auto;
+}
+
+.topnav a{
+    
+    color: white;
+     text-decoration: none;
+    font-size: 20px;
+    text-align: center;
+    justify-content: center;
+    display: inline-block;
+    padding-right: 60px;
+    margin-bottom: 20px;
+}
+h3{
+  font-weight:900;
+}
+
+nav a:hover {
+  color: gold;
+}
+
+nav a.active, nav a.active:hover {
+  color: gold;
+}
+
+footer a:hover {
+  color: gold;
+}
+
+footer a.active, footer a.active:hover {
+  color: gold;
+}
+
+/* -------------------------mobile nav start------------------------------------------------------- */
+@media screen and (min-width: 600px){
+  .mobilenav{
+      display: none;
+  }
+ }
+.mobtopnav {
+  background-color:#72AA5E;
+  width: 100%;
+  height: auto;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 9999;
+  text-align: center;
+}
+
+.mobtopimg{width: 80px;
+height:auto;
+margin-left: 20px;
+padding-top: 20px;
+padding-left: 45px;
+display:inline-block;
+margin: auto;
+}
+
+.mobtopnav a{
+  
+  color: white;
+   text-decoration: none;
+  font-size: 20px;
+  text-align: center;
+  justify-content: center;
+  display: inline-block;
+  padding-right: 60px;
+  margin-bottom: 20px;
+}
+
+.mobtopnav a:hover {
+color: gold;
+}
+
+@media screen and (max-width: 600px) {
+  .mobilenav{
+      display: block;
+  }
+  .topnav{display: none;}
+  .mobtopnav{width: 100vw;
+  }
+   .mobtopnav a:not(:first-child) {display: none;}
+   .mobtopnav a.icon {
+      padding-right: 30px;
+      margin-bottom: 20px;
+     float: right;
+     display: block;
+     padding-top: 20px
+   }
+ }
+ 
+ /* The "responsive" class is added to the topnav with JavaScript when the user clicks on the icon. This class makes the topnav look good on small screens (display the links vertically instead of horizontally) */
+ @media screen and (max-width: 600px) {
+  .mobtopnav.responsive .mobtopimg{
+    padding-left: 0;
+  }
+   .mobtopnav.responsive a.icon {
+     position: absolute;
+     right: 0;
+     top: 0;
+     width: 40px;
+     }
+.mobtopnav.responsive a {
+  float: none;
+  display: block;
+  text-align: center;
+  padding-bottom: 10px;
+  
+   }
+   .mobtopnav a{
+      padding: 0;
+      margin-bottom: 30px;
+      margin-top: 10px;
+   }
+}
+
+ 
+
+ 
+/*------------------------------------- mobile nav end----------------------------------------- */
+.bigimg{
+width: 60vw;
+height: auto;
+margin-left: 30px;
+display: block;
+float: left;
+padding-top: 60px;
+}
+
+.intro{
+color: #005292;
+-webkit-text-stroke: 0.1px #E4D800;
+font-style: 'LithosPro-Black';
+text-shadow: 0px 2.85039px 2.85039px rgba(0, 0, 0, 0.25);
+font-weight: bolder;
+font-size: 45px;
+font-weight: 700;
+line-height: 45px;
+text-align: center;
+padding-top: 65px;
+padding-right: 60px;
+}
+
+.intrologo{
+    width: 20vw;
+    height: 150px;
+    padding-left: 50px;
+    
+}
+
+.introbtn {
+text-decoration: none;
+background: #E4D800;
+border: 4px solid #005292;
+color: #72AA5E;
+font-family: "lithos pro";
+font-weight: 700;
+font-size: 25px;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 4px 7px 4px rgba(0, 0, 0, 0.25);
+border-radius: 46px;
+line-height: 10px;
+text-align: center;
+margin-left: 70px;
+padding: 20px;
+}
+
+.introbtn a{
+    text-decoration: none;
+    color: #72AA5E;
+}
+
+.bottomnav{
+    display: inline-block;
+    width: 100%;
+    background-color: #72AA5E;
+    color: white;
+    height: 50px;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+}
+
+.bottomnav a{
+    line-height: 60px;
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    padding: 50px;
+}
+@media screen and (max-width: 767px) {
+  .bottomnav{display: none;}
+}
+/*About page css*/
+
+#space{
+    height: 200px;
+}
+
+.aboutcontainer{
+    display: flex;
+	flex-direction: row;
+	align-items: center;
+    justify-content: center;
+    padding-bottom: 100px;
+    padding-top: 50px;
+    
+			
+}
+.aboutinfo1{
+    justify-content: center;
+    text-align: center;
+    font-size: 14px;
+    width: 100%;
+    margin-left: 20px;
+    margin-right: 20px;
+   
+
+}
+
+.centreabout{
+   
+    flex: 2;
+    text-align: center;
+}
+
+.aboutimg{
+    width: 90%;
+    height: 90%;
+    margin-left: 20px;
+    
+}
+
+#aboutbookbtn {
+    margin-left: 130px;
+    
+    
+
+}
+#aboutbookbtn a{
+    text-decoration: none;
+    color: #72AA5E;
+}
+.aboutinfo2{
+    font-size: 12px;
+    text-align: center;
+    margin-right: 40px;
+}
+/*CORPORATE SECTION*/
+.corporateheading{
+    font-weight: 900;
+    font-size: larger;
+}
+#formbtn{margin-right: 60px;}
+
+.corporatecontainer {
+    display: flex;
+    flex-wrap: wrap;
+    padding-top: 50px;
+    
+  }
+  
+  .corporateleft-column {
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    
+  }
+  
+  .corporatecenter-column {
+    width: 45%;
+    font-size: 12px;
+    text-align: center;
+    
+    line-height: 20px;
+    
+  }
+  
+  .corporate-rightcolumn {
+    display: flex;
+    float: left;
+    flex-direction: row-reverse;
+    width: 25%;
+    
+  }
+  .corporateimg {
+    max-width: 100%;
+    height: auto;
+    margin: 20px;
+   
+  }
+  #mao{
+    margin-top: 100px;
+  }
+  
+  .corporateform {
+    margin-top: 15px;
+    }
+
+    #phone{
+        padding-left: 20px;
+    }
+    #email1{
+        padding-left: 25px;
+    }
+  .corporateform input{
+    width: 100px;
+  }
+  
+  form div{
+    width: 40vw;
+    padding: 10px;
+    padding-left: 0;}
+  
+  .corporatecolumn img {
+     margin-bottom: 10px;
+     max-width: 150px;
+     height: auto;
+     }
+  
+  .corporatecolumn:last-child {
+    margin-top: 100px;
+  }
+
+  /*canopy cafe section*/
+  .canopycafe{
+    display: block;
+    background-image: url('./Assets\ for\ Website/newcafebackground.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 1200px;
+    height: 1200px;
+ }
+
+.canopylogo{
+    width:20vw;
+    height: auto;
+    margin-top: 40px;
+    padding-top: 60px;
+    padding-left: 35%;
+   }
+
+.canopycontainer{
+    margin-top: 30px;
+    padding-top: 260px;
+    display: flex;
+	flex-direction: row;
+	align-items: center;
+    justify-content: center;
+}
+.canopycontainer2{
+    flex: 2;
+  
+}
+.canopycontainer3{
+    flex: 2;
+    text-align: center;
+}
+
+.menu{
+    width:220px;
+    height: 350px;
+    border: #E4D800 solid 5px;
+    border-radius: 10px;
+    margin-left: 90px;
+    margin-bottom: 10px;
+}
+#menu2{
+    margin-right: 90px;
+    margin-bottom: 10px;
+}
+
+.canopybtn{
+    width: 15vw;
+    text-align: center;
+    justify-content: center;
+    margin-left: 20px;
+    
+}
+#canopybtn1{ margin-left: 100px;}
+
+.character{
+    width: 35vw;
+    height: auto;
+    padding-left: 60px;
+   
+}
+
+.canopyinfo{
+   font-size: 12px;
+   width: 40vw;
+   height: auto;
+   text-align: center;
+   padding-left: 60px;
+   
+}
+
+.canopyhead{
+    font-weight: 900;
+}
+/*canopy cafe ends*/
+
+/*FAQ CSS*/
+#faq{
+    background-image: url('./Assets\ for\ Website/backgroundimgsnake.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 800px;
+    height: 800px;
+    margin: auto;
+  }
+  
+  #faq p{
+      text-align: center;
+      font-size: 11px;
+      font-weight: 500;
+      width: 80%;
+      margin: auto;
+      padding-top: 155px;
+  }
+  
+  .faqheading{
+      font-weight: 700;
+  }
+  
+  /*gift voucher page css*/
+  .giftcontainer {
+    display: flex;
+    flex-direction: row;
+    padding: 20px;
+    padding-top: 160px
+  }
+  
+  .giftimage {
+    flex: 1;
+    
+  }
+  
+  .giftimage img {
+    max-width: 100%;
+  }
+  
+  .giftbuttons {
+    flex: 1;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    margin: 40px;
+    }
+  
+  .giftbuttons button {
+    margin-left: 10px;
+    font-size: 14px;
+   }
+  
+  #gvbtn{
+    width: 300px;
+    height: auto;
+    margin: 40px;
+    font-size: 18px;
+    }
+
+/*T&C's section */
+.tcsection{
+    font-size: 14px;
+    text-align: center;
+  }
+
+/* privacy policies*/
+.privacyheading{
+    font-weight: 900;
+}
+.privacyinfo{
+    width: 40%;
+    font-size: 12px;
+    text-align: center;
+    padding:50px;
+    padding-bottom: 10px;
+    
+    display: block;
+    float: left;
+}
+
+.privacyimg{
+    display: flex;
+    width: 40%;
+    height: 40%;
+    padding-top: 250px;
+    padding-bottom: 500px;
+}
+
+/*Charity*/
+.charity{
+    display: block;
+    background-image: url('../Rainforest/Assets\ for\ Website/new donation.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+   height: 600px;
+   width: 100vw;
+   background-color: rgba(0,0,0,0.5);
+}
+.charityinfo{
+    padding-top: 300px;
+    text-align: center;
+    width: 80%;
+    height: auto;
+    margin: auto;
+    font-size: 14px;
+    color: white;
+    
+}
+/*Company info*/
+
+
+  /* mobile layout*/ 
+  .topnav .icon {
+    display: none;
+  }
+  /* When the screen is less than 600 pixels wide, hide all links, except for the first one ("Home"). Show the link that contains should open and close the topnav (.icon) */
+ @media screen and (max-width: 767px) {
+    .topnav{width: 100vw;}
+     .topnav a:not(:first-child) {display: none;}
+     .topnav a.icon {
+       float: right;
+       display: block;
+     }
+   }
+   
+   /* The "responsive" class is added to the topnav with JavaScript when the user clicks on the icon. This class makes the topnav look good on small screens (display the links vertically instead of horizontally) */
+   @media screen and (max-width: 767px) {
+     .topnav.responsive {position: relative;}
+     .topnav.responsive a.icon {
+       position: absolute;
+       right: 0;
+       top: 0;
+     }
+  .topnav.responsive a {
+    float: none;
+    display: block;
+    text-align: center;
+     }
+   }
+
+   @media screen and (max-width: 767px){
+    .introbtn{
+      font-size: 15px;
+      padding: 10px;
+    }
+    .topimg{
+      display: block;
+      margin: auto;
+      padding-left: 30vw;
+    }
+   .logo{
+    display:block;
+    margin: auto;
+    width: 40vw;
+    height: auto;}
+  
+  .bigimg{display: none;}
+
+  .intro{
+    padding-right: 0;
+    padding-bottom: 5vh;
+   display: block;
+   margin: auto;
+   padding-top: 80px;
+  }
+  .intrologo{
+    width: 60vw;
+    padding-left: 20vw;
+    padding-right: 20vw;
+  padding-bottom: 6vh;}
+
+  #introbtn1{
+    display: block;
+    margin: auto;
+
+  }
+
+  #space{
+    height: 5vh;
+  }
+  .aboutcontainer{
+    display: block;
+    padding-bottom: 20px;
+  }
+  .aboutinfo1{
+    margin:0;
+  }
+  .aboutimg{
+    width: 50vw;
+    height: auto;
+    display: block;
+    margin: auto;
+    padding: 20px;
+  }
+
+  #aboutbookbtn{
+    display: block;
+    margin: auto;
+    font-size: 14px;
+  }
+
+  .aboutinfo2{
+    display: block;
+    margin: auto;
+  }
+  
+  .corporatecontainer{flex-direction: column-reverse;}
+  .corporateleft-column{
+    margin: auto;
+    width: 80vw;
+    }
+    #mao{
+      margin: 0;
+      margin-top: 20px;
+    }
+  .corporatecenter-column{
+    width: 100%;
+    
+  }
+  .corporateform{font-size: 10px;
+
+  }
+  form div{
+    width: 98vw;
+    
+   
+  }
+  .corporate-rightcolumn{
+    display: none;
+  }
+  .canopycontainer{
+    margin-top: 0;
+    padding-top: 0;
+    flex-direction: column;
+    align-items: baseline;
+    }
+
+    .canopy{
+      order: 1;
+     }
+    .canopycontainer2{
+      width: 100%;
+      display: block;
+      margin: auto;
+    }
+  
+ .canopylogo{
+    width: 40vw;
+    padding-left: 30vw;
+    padding-top: 10px;
+  }
+  .canopyinfo{
+    width: 80vw;
+    padding: 10vw;
+    
+  }
+  .canopycafe{
+    background-image: none;
+  }
+  .character{
+    width: 80vw;
+  }
+  .menu{
+    width: 60vw;
+    margin-left: 20vw;
+    margin-right: 20vw;
+    margin-top: 5vh;
+  }
+ 
+  .canopybtn{
+    width: 40vw;
+    display: block;
+    margin: auto;
+    
+  }
+  #canopybtn1{
+    display: block;
+    margin: auto;
+  }
+  #faq{
+  background-image: none;
+  padding-top: 30vh;
+  width: 100%;
+  height: auto;
+  }
+  .faqinfo{
+    width: 100%;
+    margin: 0;
+  }
+  .giftcontainer{
+    padding: 0;
+  }
+
+  .giftimg{
+    width: 150px;
+    height: 25vh;
+  }
+  #gvbtn{
+    width: 50vw;
+    margin-top: 5px;
+    font-size: 11px;
+    margin-left: 0;
+  }
+
+  .tcsection{
+    font-size: 10px;
+  }
+ .privacyinfo{
+  padding: 0;
+  width: auto;
+  font-size: 10px;
+ }
+ .privacyimg {padding: 10px;
+  width: 70vw;
+display: block;
+margin: auto;}
+ .charity{
+  background-image: none;
+  background-color: white;
+  
+ }
+ .charityinfo{
+  padding-top: 100px;
+  color: black;
+  font-size: 10px;
+  padding-top: 10px;
+ }
+ #space3{
+  height: 10px;
+ }
+}
+
+/*  START OF css for TABLET screen laptops */
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+  .topnav{
+    width: 100vw;
+  }
+  .topnav a{
+    font-size: 14px;
+    padding-right: 20px;
+  }
+  .bigimg{
+    display: none;
+  }
+  .intro{
+    display: block;
+    margin: auto;
+    font-size: 30px;
+    padding-top: 60px;
+    padding-right: 0;
+    margin-bottom: 5px;
+  }
+  .intrologo {
+    display: flex;
+    margin: auto;
+    width: 20vw;
+    height: auto;
+    padding-left: 30px;
+    margin-bottom: 15px;
+  
+}
+.introbtn{
+  display: block;
+  margin: auto;
+  font-size: 15px;
+  
+  padding: 10px;
+}
+
+.bottomnav{
+  display: block;
+  width: 100vw;
+ 
+}
+.bottomnav a{
+  font-size:14px;
+  padding-left: 25px;
+}
+
+#space{height: 5px;}
+
+.aboutinfo1{
+  display: inline;
+  margin: auto;
+ font-size: 10px;
+ 
+}
+.aboutinfo2{
+  display: block;
+  margin: auto;
+  font-size: 10px;
+}
+.aboutimg{
+  margin-bottom: 5px;
+}
+
+#aboutbookbtn{
+  display: block;
+  margin: auto;}
+
+ #map{
+    width: 140px;
+    height: 100px;
+  }
+  .corporatecontainer{
+    padding-top: 10px;
+  }
+  .corporatecolumn img{
+    max-width: 70px;
+    margin-bottom: 50px;
+  }
+  .ruinimg{
+    display: none;
+  }
+  .hexcafe{
+    display: none;
+  }
+  .namesec{
+   width: 48vw;
+  }
+  .emailsec{
+    width: 48vw;
+  }
+  #formbtn{
+    display: block;
+    margin: auto;
+    margin-top: 5px;
+  }
+  .canopy{
+    margin: auto;
+  }
+  .canopycafe{
+    width: 700px;
+    height: 700px;
+    margin: auto;
+  }
+  .canopycontainer{
+    margin-top:60px;
+    padding: 60px;
+  }
+  .canopycontainer2{
+    width: 30vw;
+  }
+.canopyinfo{
+  text-align: center;
+  width: 200px;
+}
+.menu {
+  width: 25vw;
+  height: 280px;
+    margin-left: 70px;
+}
+.character{
+  width: 30vw;
+    height: 25vh;
+    padding: 0;
+}
+#faq{
+  width: 700px;
+  height: 700px;
+}
+#faq p{
+  font-size: 10px;
+  padding-top: 68px;
+  width: 60%;
+}
+.giftimg{
+  width: 40vw;
+  margin-top: 20px;
+}
+.privacysection{
+  display: flex;
+    flex-direction: row-reverse;
+}
+.charityinfo{
+  font-size: 12px;
+  padding-top: 250px;
+}
+/*  END OF css for TABLET screen laptops */
+}
+
+/* START OF css for larger screen laptops */
+@media only screen and (min-width: 1250px){
+  .topnav{
+    display: flex; 
+  justify-content: center; 
+  align-items: center;
+    height: 160px;
+  }
+
+  .topnav a{
+    font-size: 50px;
+    padding-right: 150px;
+  }
+
+  .bottomnav{
+  display: flex; 
+  justify-content: center; 
+  align-items: center;
+  height: 150px;
+  }
+
+  .bottomnav a{
+    padding-right: 150px;
+    font-size: 50px;
+  }
+
+  .topimg{
+    width: 250px;
+    margin-top: 30px;
+  }
+
+  .bigimg{
+    width: 2000px;
+    height: 1500px;
+    padding-top: 12vh;
+    margin: 0;
+  }
+
+  .introsection{
+    width: 100vw;
+    margin: 0;
+  }
+
+  .intro{
+    font-size: 100px;
+    padding-top: 230px;
+    padding-right: 70px;
+    line-height: 150px;
+  }
+
+  .intrologo{
+    width:15vw;
+    height: auto;
+    margin-bottom: 100px;
+    padding-left: 250px;
+  }
+
+  .introbtn{
+    margin-bottom: 400px;
+    font-size: 60px;
+    padding:40px;
+    margin-left: 250px;
+  }
+
+  .aboutcontainer{
+    padding-bottom: 200px;
+    margin-bottom: 200px;
+  }
+
+  .aboutinfo1{
+    width: 40vw;
+    font-size: 30px;
+  }
+
+  .aboutinfo2{
+    width: 40vw;
+    font-size: 30px;
+  }
+
+  .aboutimg{
+    width: 33vw;
+    padding-left: 10vw;
+    padding-top: 200px;
+    margin-bottom: 20px;
+  }
+
+  #aboutbookbtn{
+    margin-left: 20vw;
+    margin-bottom: 100px;
+  }
+
+  #map{
+    width: 400px;
+    height: 200px;
+  }
+
+  .corporatecolumn img{
+    max-width: 250px;
+    padding-left:125px;
+    margin-bottom: 50px;
+  }
+
+.corporatecenter-column {
+    width: 35%;
+    font-size: 20px;
+    padding-left: 140px;
+    line-height: 35px;
+
+}
+.corporateleft-column{
+  padding-left: 100px;
+}
+form div {width: 35vw;
+}
+#formbtn{
+  font-size: 30px;
+  padding: 25px;
+  margin-left: 0;
+  margin-top: 20px;
+}
+.canopycafe{
+  width: 95vw;
+  height: 2850px;
+  margin-left: 2.5vw;
+}
+.menu {
+  width: 600px;
+  height: 800px;
+  margin-left: 180px;
+  margin-top: 550px;
+}
+.canopylogo{
+  padding-top: 250px;
+}
+.canopyinfo{
+  font-size: 40px;
+  display: block;
+  margin: auto;
+}
+.character{
+  width: auto;
+}
+#faq{
+  width:  95vw;
+  height: 2850px;
+}
+#faq p{
+  font-size: 30px;
+  padding-top:755px ;
+}
+.giftimg{
+  width: 50vw;
+}
+.giftbtn{padding-top: 200px;
+  padding-left: 100px;
+
+}
+#gvbtn{
+  display: flex;
+  flex-direction: column;
+  width: 20vw;
+  font-size: 30px;
+  line-height: normal;
+  margin-top: 80px;
+  padding-left: 120px;
+}
+.tcsection{
+  font-size: 20px;
+  width: 80vw;
+  display: block;
+  margin: auto;
+}
+.privacysection{
+  margin-top: 200px;
+}
+.privacyinfo{
+  width: 60vw;
+  font-size: 30px;
+}
+.privacyimg{
+  width: 35vw;
+}
+.charity{
+  height: 1600px;
+}
+.charityinfo{
+  padding-top: 800px;
+  font-size: 30px;
+}
+/* END OF css for larger screen laptops */
+}
